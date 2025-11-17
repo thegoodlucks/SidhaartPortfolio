@@ -653,10 +653,10 @@
                 About Me
             </h2>
             <p style="font-size: 1.1em; line-height: 1.8; color: #e0e0ff;">
-                Hello! I'm Sidhaarthan, a passionate student with an insatiable curiosity for science and mathematics. 
-                I believe that understanding the fundamental laws of physics and the elegant patterns of mathematics 
-                is key to unlocking the mysteries of our universe. My journey in STEAM has been filled with exciting 
-                discoveries, and I'm eager to continue exploring at NUS High School of Math and Science.
+                Hello! I'm Sidhaarthan, a passionate student with an insatiable curiosity for science and exploration. 
+                I believe that understanding the fundamental laws of physics, chemistry, and biology is key to unlocking 
+                the mysteries of our universe. My journey in STEAM has been filled with exciting discoveries in scientific research,
+                and I'm eager to continue exploring at NUS High School of Math and Science.
             </p>
             <div class="skills-container" style="margin-top: 30px;">
                 <div class="skill-category">
@@ -666,15 +666,8 @@
                         <li>Astrophysics <span class="skill-level">Advanced</span></li>
                         <li>Astrobiology <span class="skill-level">Advanced</span></li>
                         <li>Computational Biology <span class="skill-level">Developing</span></li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-calculator"></i> Mathematical Skills</h3>
-                    <ul class="skill-list">
-                        <li>Algebra <span class="skill-level">Advanced</span></li>
-                        <li>Calculus <span class="skill-level">Intermediate</span></li>
-                        <li>Statistics <span class="skill-level">Advanced</span></li>
-                        <li>Game Theory <span class="skill-level">Developing</span></li>
+                        <li>Chemistry & Reactions <span class="skill-level">Intermediate</span></li>
+                        <li>Environmental Science <span class="skill-level">Advanced</span></li>
                     </ul>
                 </div>
             </div>
@@ -695,12 +688,12 @@
                     <p class="video-description">Demonstrating simple harmonic motion and exploring the relationship between period and length.</p>
                 </div>
                 
-                <div class="video-card" data-video="math">
+                <div class="video-card" data-video="chemistry">
                     <div class="video-placeholder">
                         <span style="font-size: 3em;"><i class="fas fa-play-circle"></i></span>
                     </div>
-                    <h3 class="video-title">Mathematical Problem Solving</h3>
-                    <p class="video-description">Walkthrough of solving complex algebraic equations using creative approaches.</p>
+                    <h3 class="video-title">Chemical Reactions & Lab Techniques</h3>
+                    <p class="video-description">Exploration of chemical reactions and proper laboratory techniques through hands-on experiments and demonstrations.</p>
                 </div>
                 
                 <div class="video-card" data-video="science">
@@ -771,6 +764,8 @@
                         <li>Data Analysis <span class="skill-level">Intermediate</span></li>
                         <li>Laboratory Techniques <span class="skill-level">Intermediate</span></li>
                         <li>Data Manipulation <span class="skill-level">Advanced</span></li>
+                        <li>Experimental Design <span class="skill-level">Advanced</span></li>
+                        <li>Scientific Writing <span class="skill-level">Intermediate</span></li>
                     </ul>
                 </div>
                 <div class="skill-category">
@@ -875,18 +870,18 @@
     <script>
         const mathBg = document.getElementById('mathBg');
         const formulas = [
+            'DNA → RNA',
+            'H₂O ↔ H⁺ + OH⁻',
+            'C₆H₁₂O₆ + O₂',
             'E=mc²',
-            '∫f(x)dx',
-            'π = 3.14159',
             'F=ma',
-            'a² + b² = c²',
-            '∑ᵢ₌₁ⁿ',
+            'Photosynthesis',
+            'pH = -log[H⁺]',
+            'Mitosis',
             'v = u + at',
-            '√(x² + y²)',
-            'sin²θ + cos²θ = 1',
-            'dy/dx',
-            'lim(x→∞)',
-            'e^(iπ) + 1 = 0'
+            'ΔG = ΔH - TΔS',
+            'Osmosis',
+            'Spectroscopy'
         ];
 
         for (let i = 0; i < 30; i++) {
@@ -943,9 +938,9 @@
                 if (videoType === 'physics') {
                     modalTitle.textContent = 'Physics Experiment: Pendulum Motion';
                     modalDescription.textContent = 'This video demonstrates simple harmonic motion and explores the relationship between period and length in pendulum systems. Through careful experimentation and data analysis, I showcase how mathematical principles apply to physical phenomena.';
-                } else if (videoType === 'math') {
-                    modalTitle.textContent = 'Mathematical Problem Solving';
-                    modalDescription.textContent = 'In this presentation, I walk through solving complex algebraic equations using creative approaches and multiple solution methods. The video highlights my analytical thinking and problem-solving strategies.';
+                } else if (videoType === 'chemistry') {
+                    modalTitle.textContent = 'Chemical Reactions & Lab Techniques';
+                    modalDescription.textContent = 'This video explores fundamental chemical reactions and proper laboratory techniques through hands-on experiments. I demonstrate safety protocols, equipment usage, and data collection methods essential for scientific research. The presentation showcases various types of reactions including acid-base reactions, redox reactions, and organic chemistry principles.';
                 } else if (videoType === 'science') {
                     modalTitle.textContent = 'Science Fair Project';
                     modalDescription.textContent = 'This is a presentation of my research on renewable energy solutions and sustainable technology. The project explores innovative approaches to harnessing solar energy more efficiently and discusses practical applications for sustainable living.';
