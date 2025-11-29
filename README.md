@@ -9,7 +9,7 @@
 *A stunning interactive portfolio showcasing academic achievements and STEM passion*
 
 [![Live Demo](https://img.shields.io/badge/🌐-Live_Demo-green?style=for-the-badge&logo=vercel)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-[![GitHub Pages](https://img.shields.io/badge/🚀-GitHub_Pages-blue?style=for-the-badge&logo=github)](https://thegoodlucks.github.io/SidaartPortfolio/)
+[![GitHub Pages](https://img.shields.io/badge/🚀-GitHub_Pages-blue?style=for-the-badge&logo=github)](https://msq2010.github.io/SidhaartPortfolio/)
 
 </div>
 
@@ -57,5 +57,5 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/thegoodlucks/SidhaartPortfolio.git
+   git clone https://github.com/msq2010/SidhaartPortfolio.git
    cd SidhaartPortfolio
