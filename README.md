@@ -53,9 +53,6 @@
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Basic understanding of HTML/CSS/JS (for customization)
 
-### Installation
+### Status 
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/msq2010/SidhaartPortfolio.git
-   cd SidhaartPortfolio
+Sidaarthan has been accepted to NUS High.
